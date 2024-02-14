@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.icons{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.icon-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.judge-me {
+  display:flex;
+  flex-direction: row;
+}
+
+.my-name {
+  font-family: mgs4brush;
+  font-size: 70px;
+}
+
+.contact-info {
+  margin-left: 20px;
+  text-align: left;
+  position: relative;
+  top: -80px;
+}
+
+.about {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+    /*align-items: center;*/
+}
+
+.interests {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
