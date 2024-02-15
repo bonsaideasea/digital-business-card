@@ -1,11 +1,12 @@
 import './App.css'
 
+
 function Info() {
     return (
         <>
             <div className="judge-me">
-                <div className="face-pic">
-                    <img src="facecard.png" width={250} height={250}></img>
+                <div>
+                    <img className="face-pic" src="facecard.png" width={270} height={270}></img>
                 </div>
                 <div className="contact-info">
                     <h2 className="my-name">bonsai.</h2>

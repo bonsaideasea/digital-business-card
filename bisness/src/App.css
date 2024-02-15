@@ -4,3 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+
+body {
+  max-width: 600px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+
+}
