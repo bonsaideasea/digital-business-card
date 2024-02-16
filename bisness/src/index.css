@@ -30,7 +30,7 @@ body {
   justify-content: center;
   list-style: none;
   position: relative;
-  top: -50px;
+  top: -70px;
   left: -15px;
 }
 
@@ -47,6 +47,8 @@ body {
 .my-name {
   font-family: mgs4brush;
   font-size: 70px;
+  position: relative;
+  top: 20px;
 }
 
 .contact-info {
@@ -54,6 +56,7 @@ body {
   text-align: left;
   position: relative;
   top: -80px;
+  
 }
 
 .about {
@@ -61,7 +64,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -60px;
+  top: -80px;
 }
 
 .about-paragraph {
@@ -74,17 +77,22 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -60px;
+  top: -100px;
 }
 
 .interests-p {
   position: relative;
-  top: -20px;
+  top: -22px;
 }
 
 .face-pic {
   border-top-left-radius: 30px;
   position: relative;
-  left: -39px;
+  left: -23px;
   top: -32px;
+}
+
+.interests-list {
+  position: relative;
+  top: -13px;
 }
